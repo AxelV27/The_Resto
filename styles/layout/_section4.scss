@@ -101,20 +101,20 @@
                 grid-area: a;
 
                 .date{
-                    background: url(/img/event-01.jpg) center/cover; 
+                    background: url(../../img/event-01.jpg) center/cover; 
                 }
             }
             .event-2{
                 grid-area: c;
 
                 .date{
-                    background: url(/img/event-02.jpg) center/cover;
+                    background: url(../../img/event-02.jpg) center/cover;
                 }
             }
 
             .event-3{
                 grid-area: b;
-                background: url(/img/event-03.jpg) center/cover;
+                background: url(../../img/event-03.jpg) center/cover;
                 padding: 25px;
                 .address{
                     height: 100%;

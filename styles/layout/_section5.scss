@@ -7,7 +7,7 @@
         position: absolute;
         height: 350px;
         width: 100%;
-        background: url(/img/gmap.jpg) center/cover;
+        background: url(../../img/gmap.jpg) center/cover;
        left: 0;
        bottom: 0;
     }
@@ -25,7 +25,7 @@
         &::before{
             content: "";
             position:absolute;
-            background: url(/img/avatar-02.jpg) center/cover;
+            background: url(../../img/avatar-02.jpg) center/cover;
             height: 60px;
             width: 60px;
             border-radius: 50px;
