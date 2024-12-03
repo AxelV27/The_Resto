@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+
+$font1:"Allura",cursive;
+$font2: "Poppins", serif;
+$font3: "Roboto", serif;
+$white: #eee;
+$black: #21201e;
+$grey: rgb(182, 182, 182);
+$color1: rgb(166, 144, 69);
+
+@mixin childCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin alignChildren($space){
+    display: flex;
+    align-items: center;
+    justify-content: $space;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    text-align: center;
+    font-family: $font3;
+    background: $black;
+}
